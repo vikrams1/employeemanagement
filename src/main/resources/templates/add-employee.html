@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Employee</title>
+  <link rel="stylesheet" type="" href="/style/add-employee.css">
+</head>
+
+<body>
+  <header>
+    <h1>Employee Management</h1>
+    <div class="button-container">
+      <a href="/viewemployee" class="view-btn">View Employee</a>
+    </div>
+  </header>
+  <main>
+    <section class="add-employee">
+      <form action="/saveemployee" method="post" enctype="multipart/form-data">
+        <table>
+          <div>
+            <tr>
+              <td class="label">Employee Name : </td>
+              <td><input class="input-field" type="text" name="name" th:value="${employee.name}" required ></td>
+            </tr>
+            <tr>
+              <td class="label">Employee Designation : </td>
+              <td><input class="input-field" type="text" name="designation"th:value="${employee.designation}" required></td>
+            </tr>
+            <tr>
+              <td class="label">Employee Description : </td>
+              <td><textarea class="input-textarea" rows="4" cols="40" name="description" th:text="${employee.description}" required></textarea></td>
+            </tr>
+            <tr>
+              <td class="label">Uplopad Image : </td>
+              <td><input type="file" name="picture" ></td>
+            </tr>
+          </div>
+        </table>
+        <input type="hidden" name="id" th:value="${employee.id}">
+        <input type="hidden" name="pictureURL" th:value="${employee.pictureURL}">
+        <div class="td-submit">
+          <input class="submit-btn" type="submit" value="Add Employee">
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
