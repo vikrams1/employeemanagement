@@ -2,7 +2,8 @@
 
 This is a comprehensive employee management project built using Spring, PostgreSQL database, Thymeleaf, Hibernate, HTML, CSS, and JavaScript. The project provides a user-friendly interface for managing employee records and performing various administrative tasks.
 
-[![homepage-employee.png](https://i.postimg.cc/LskBFjtN/homepage-employee.png)]
+<img src="https://i.postimg.cc/LskBFjtN/homepage-employee.png">
+
 ## Features
 
 - **Employee CRUD Operations**: Perform Create, Read, Update, and Delete (CRUD) operations on employee records, allowing you to efficiently manage employee data like Employee Name, Employee Designation, Employee Description and Employee Picture.
