@@ -2,7 +2,7 @@
 
 This is a comprehensive employee management project built using Spring, PostgreSQL database, Thymeleaf, Hibernate, HTML, CSS, and JavaScript. The project provides a user-friendly interface for managing employee records and performing various administrative tasks.
 
-<img src="https://i.postimg.cc/LskBFjtN/homepage-employee.png">
+![homepage-employee.png](https://i.postimg.cc/LskBFjtN/homepage-employee.png)
 
 ## Features
 
@@ -16,22 +16,22 @@ The Employee Management Project utilizes Spring Security for user authentication
 
 When you run the application at first it asks for signin, you can find and change the username and password at `config/SecurityConfig.java` file.
 
-[![spring-signin.png](https://i.postimg.cc/DfRgsfwQ/spring-signin.png)](https://postimg.cc/Thqgv6mh)
+![spring-signin.png](https://i.postimg.cc/DfRgsfwQ/spring-signin.png)
 
 ### Add Employee
 Using **`ADD EMPLOYEE`** you can add a new employee with the field of `Employee Name`, `Employee Designation`, `Employee Description` and `Employee Picture`.
 
-[![add-employee.png](https://i.postimg.cc/htB1yCxf/add-employee.png)](https://postimg.cc/kBTSDvTm)
+![addemployee.png](https://i.postimg.cc/T3dFYJ7K/addemployee.png)
 
 ### UPDATE
-Using **`UPDATE`** button you can update the current employee data.
+Using the **`UPDATE`** button you can update the current employee data.
 
-[![update-employee.png](https://i.postimg.cc/7LPMDfK4/update-employee.png)](https://postimg.cc/Mn4jmKk3)
+![updateemployee.png](https://i.postimg.cc/FHTqfk8D/updateemployee.png)
 
 ### DELETE
 Using **`DELETE`** button we can delete the employee data, while deleting browser gives an alert to confirm the deletation process.
 
-[![delete-employee.png](https://i.postimg.cc/L6fVVdJc/delete-employee.png)](https://postimg.cc/yk19VbXj)
+![delete-employee.png](https://i.postimg.cc/L6fVVdJc/delete-employee.png)
 
 ### VIEW EMPLOYEE
 USING **`VIEW EMPLOYEE`** you can view the all the existing Employee data, by default its the home page of our project.
